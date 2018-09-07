@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="84572" started-at="2018-09-07T09:47:00Z" finished-at="2018-09-07T09:48:25Z">
+  <suite name="Suite" duration-ms="93657" started-at="2018-09-07T10:01:28Z" finished-at="2018-09-07T10:03:02Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="84572" started-at="2018-09-07T09:47:00Z" finished-at="2018-09-07T09:48:25Z">
+    <test name="Test1" duration-ms="93657" started-at="2018-09-07T10:01:28Z" finished-at="2018-09-07T10:03:02Z">
       <class name="com.tests.TestSignUp">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tests.TestSignUp@5d76b067]" name="beforeTest" is-config="true" duration-ms="18" started-at="2018-09-07T09:47:07Z" finished-at="2018-09-07T09:47:07Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tests.TestSignUp@5d76b067]" name="beforeTest" is-config="true" duration-ms="11" started-at="2018-09-07T10:01:33Z" finished-at="2018-09-07T10:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="Test()[pri:0, instance:com.tests.TestSignUp@5d76b067]" name="Test" duration-ms="77789" started-at="2018-09-07T09:47:07Z" finished-at="2018-09-07T09:48:25Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:com.tests.TestSignUp@5d76b067]" name="Test" duration-ms="88346" started-at="2018-09-07T10:01:33Z" finished-at="2018-09-07T10:03:02Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #txtMobilePhone
@@ -19,8 +19,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'MSALMAN', ip: '192.168.0.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15596, moz:profile: C:\Users\Win10\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: fe5410ca-5ca5-4836-bd6e-3c2f6899cb26
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6520, moz:profile: C:\Users\Win10\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f4569ca4-efec-4ef5-96c3-94c02fa15c4f
 *** Element info: {Using=id, value=txtMobilePhone}]]>
             </message>
             <full-stacktrace>
@@ -29,8 +29,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'MSALMAN', ip: '192.168.0.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15596, moz:profile: C:\Users\Win10\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: fe5410ca-5ca5-4836-bd6e-3c2f6899cb26
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6520, moz:profile: C:\Users\Win10\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f4569ca4-efec-4ef5-96c3-94c02fa15c4f
 *** Element info: {Using=id, value=txtMobilePhone}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -79,7 +79,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.TestSignUp@5d76b067]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-09-07T09:48:25Z" finished-at="2018-09-07T09:48:25Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.TestSignUp@5d76b067]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-09-07T10:03:02Z" finished-at="2018-09-07T10:03:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
